@@ -45,7 +45,7 @@ export default function Navbar() {
 
           <div className="hidden md:flex space-x-6 text-green-800 font-medium">
             <Link
-              href="/"
+              href="/#hero"
               className="relative after:block after:h-[2px] after:bg-green-800 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left"
             >
               Beranda
@@ -84,7 +84,7 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden bg-amber-100 px-4 pb-4 space-y-2">
             <Link
-              href="/"
+              href="/#hero"
               className="relative after:block after:h-[2px] after:bg-green-800 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left"
             >
               Beranda
