@@ -23,7 +23,7 @@ export default function Hero() {
   ];
 
   return (
-    <main className="relative w-full h-screen overflow-hidden m-0 flex items-center justify-center">
+    <main id="hero" className="relative w-full h-screen overflow-hidden m-0 flex items-center justify-center">
       {/* Background Layer with Hover Effects */}
       <div className="absolute inset-0 z-0 grid grid-cols-1 md:grid-cols-3">
         {items.map((item, i) => (
