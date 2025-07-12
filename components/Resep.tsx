@@ -30,19 +30,19 @@ const relatedRecipes: RelatedRecipe[] = [
   {
     id: 1, // Changed ID to match existing recipe for demonstration
     title: "Sambal Terasi Bakar",
-    image: "/images/hasil/sawah.jpg",
+    image: "/images/olahan/sambal.jpg",
     category: "Sambal",
   },
   {
     id: 3, // Changed ID to match existing recipe for demonstration
     title: "Gulai Daun Singkong",
-    image: "/images/hasil/kacang-panjang.jpg",
+    image: "/images/olahan/gulai-singkong.jpg",
     category: "Olahan Daun",
   },
   {
     id: 2, // Changed ID to match existing recipe for demonstration
     title: "Tumis Terong Pedas Manis",
-    image: "/images/hasil/cabai.jpg",
+    image: "/images/olahan/tumis-terong.jpg",
     category: "Tumis",
   },
 ];
